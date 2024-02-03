@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image {
+  margin-left: 75px;
+}
+
+.title {
+  color: #87b854;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.navigate {
+  margin-left: 15vw;
+  display: flex;
+  flex-direction: row;
+  gap: 130px;
+}
+
+.navigate a {
+  color: #87b854;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.light { font-weight: 400; }
+.heavy { font-weight: 700; }

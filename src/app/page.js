@@ -130,6 +130,7 @@ export default function Home() {
               src="/placehold2.png"
               width={424}
               height={393}
+              alt="update"
             />
             <p>{obj.description}</p>
           </div>
