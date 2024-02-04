@@ -1,8 +1,9 @@
-import { Inter } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Components/Navbar.js"
+import Footer from "./Components/Footer.js"
 
-const inter = Inter({ subsets: ["latin"] });
+const open_sans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata = {
   title: "StuyBike",
@@ -12,9 +13,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={open_sans.className}>
         <Navbar />
         {children}
+        <div className="spacer"/>
+        <Footer />
       </body>
     </html>
   );
