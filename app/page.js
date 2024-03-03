@@ -101,7 +101,7 @@ export default function Home() {
           </div>
         ))}
       </div>
-      <h2 className={styles.leadershipTitle}>LEADERSHIP TEAM</h2>
+      <h2 id="about" className={styles.leadershipTitle}>LEADERSHIP TEAM</h2>
       <div className={styles.leadershipTeam}>
         <Image
           src="/arrowleft.jpg"
@@ -139,7 +139,7 @@ export default function Home() {
           </div>
         ))}
       </div>
-      <div className={`${styles.flashOfEvents} ${styles.groupPic}`}>
+      <div id="services" className={`${styles.flashOfEvents} ${styles.groupPic}`}>
         <div className={styles.imgContainer}>
         <Image
           className={styles.image}
